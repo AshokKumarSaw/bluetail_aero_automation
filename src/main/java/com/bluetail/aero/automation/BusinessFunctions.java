@@ -19,15 +19,15 @@ public class BusinessFunctions extends TestBase {
 			try {
 
 				// Enter email in the username field
-				Assert.assertTrue(WebUIAutomation.setText("INPUT_Email_SignInPAGE", config.getProperty("Email")),
+				Assert.assertTrue(WebUIAutomation.setText("INPUT_Login_Email", config.getProperty("Email")),
 						"Unable to enter text on [Email] field.");
 
 				// Enter password in the password field
-				Assert.assertTrue(WebUIAutomation.setText("INPUT_Password_SignInPAGE", config.getProperty("Password")),
+				Assert.assertTrue(WebUIAutomation.setText("INPUT_Login_Password", config.getProperty("Password")),
 						"Unable to enter text on [password] field.");
 
 				// Click on Login button
-				Assert.assertTrue(WebUIAutomation.clickObj("BTN_SignIn_SignInPage"),
+				Assert.assertTrue(WebUIAutomation.clickObj("BTN_Login"),
 						"Clicking on the [SignIn] button isn't successful.");
 
 				loggedIn = true;
@@ -59,7 +59,7 @@ public class BusinessFunctions extends TestBase {
 			loggedIn = false;
 
 			// Verify user has logged out or not
-			Assert.assertTrue(WebUIAutomation.isObjPresent("BTN_SignIn_SignInPage", 30),
+			Assert.assertTrue(WebUIAutomation.isObjPresent("BTN_Login", 30),
 					"[Login] button isn't displayed.");
 			
 

@@ -5,20 +5,20 @@
       <![CDATA[Opening the Zumic page URL : https://refstagingapp.bluetail.aero/]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-02-18T10:11:22Z" name="Default suite" finished-at="2021-02-18T10:11:57Z" duration-ms="35802">
+  <suite started-at="2021-02-18T11:00:06Z" name="Default suite" finished-at="2021-02-18T11:00:43Z" duration-ms="36669">
     <groups>
     </groups>
-    <test started-at="2021-02-18T10:11:22Z" name="Default test" finished-at="2021-02-18T10:11:57Z" duration-ms="35802">
+    <test started-at="2021-02-18T11:00:06Z" name="Default test" finished-at="2021-02-18T11:00:43Z" duration-ms="36669">
       <class name="com.bluetail.aero.automation.Launching_Bluetail_Aero_Site">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:com.bluetail.aero.automation.Launching_Bluetail_Aero_Site@1224144a]" started-at="2021-02-18T10:11:21Z" name="initialize" finished-at="2021-02-18T10:11:22Z" duration-ms="492" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.bluetail.aero.automation.Launching_Bluetail_Aero_Site@1224144a]" started-at="2021-02-18T11:00:06Z" name="initialize" finished-at="2021-02-18T11:00:06Z" duration-ms="643" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method is-config="true" signature="doSkip()[pri:0, instance:com.bluetail.aero.automation.Launching_Bluetail_Aero_Site@1224144a]" started-at="2021-02-18T10:11:22Z" name="doSkip" finished-at="2021-02-18T10:11:22Z" duration-ms="72" status="PASS">
+        <test-method is-config="true" signature="doSkip()[pri:0, instance:com.bluetail.aero.automation.Launching_Bluetail_Aero_Site@1224144a]" started-at="2021-02-18T11:00:06Z" name="doSkip" finished-at="2021-02-18T11:00:06Z" duration-ms="72" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doSkip -->
-        <test-method signature="SmokeTestCase(java.lang.String, java.lang.String)[pri:0, instance:com.bluetail.aero.automation.Launching_Bluetail_Aero_Site@1224144a]" started-at="2021-02-18T10:11:22Z" name="SmokeTestCase" data-provider="getTestData" finished-at="2021-02-18T10:11:56Z" duration-ms="34505" status="PASS">
+        <test-method signature="SmokeTestCase(java.lang.String, java.lang.String)[pri:0, instance:com.bluetail.aero.automation.Launching_Bluetail_Aero_Site@1224144a]" started-at="2021-02-18T11:00:06Z" name="SmokeTestCase" data-provider="getTestData" finished-at="2021-02-18T11:00:42Z" duration-ms="35592" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- SmokeTestCase -->
-        <test-method is-config="true" signature="preparingToShutDown()[pri:0, instance:com.bluetail.aero.automation.Launching_Bluetail_Aero_Site@1224144a]" started-at="2021-02-18T10:11:56Z" name="preparingToShutDown" finished-at="2021-02-18T10:11:57Z" duration-ms="1196" status="PASS">
+        <test-method is-config="true" signature="preparingToShutDown()[pri:0, instance:com.bluetail.aero.automation.Launching_Bluetail_Aero_Site@1224144a]" started-at="2021-02-18T11:00:42Z" name="preparingToShutDown" finished-at="2021-02-18T11:00:43Z" duration-ms="979" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preparingToShutDown -->
