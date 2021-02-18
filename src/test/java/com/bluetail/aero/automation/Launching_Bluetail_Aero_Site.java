@@ -39,16 +39,16 @@ public class Launching_Bluetail_Aero_Site extends TestBase {
 			System.out.println(" The Bluetail_Aero page URL is opened : " + url);
 			Thread.sleep(3000);
 
-			System.out.println("login into the application");
 			
+
 			WebUIAutomation.setText("INPUT_Login_Email", "teknotrait.ashok@gmail.com");
 			WebUIAutomation.setText("INPUT_Login_Password", "Bluetail@123");
 			WebUIAutomation.clickObj("BTN_Login");
 			Thread.sleep(5000);
-			
-			
-			
-			
+			WebUIAutomation.clickObj("BTN_Logout");
+			Thread.sleep(3000);
+			WebUIAutomation.popUpHandler();
+			Thread.sleep(3000);
 			
 		}
 
