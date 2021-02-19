@@ -1,24 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Opening the Zumic page URL : https://refstagingapp.bluetail.aero/]]>
+      <![CDATA[Opening the Bluetail_Aero page URL : https://refstagingapp.bluetail.aero/]]>
+    </line>
+    <line>
+      <![CDATA[ The Bluetail_Aero page URL is opened : https://refstagingapp.bluetail.aero/]]>
+    </line>
+    <line>
+      <![CDATA[ Logging into the application : https://refstagingapp.bluetail.aero/]]>
+    </line>
+    <line>
+      <![CDATA[ Logging out from application : https://refstagingapp.bluetail.aero/]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-02-18T11:00:06Z" name="Default suite" finished-at="2021-02-18T11:00:43Z" duration-ms="36669">
+  <suite started-at="2021-02-19T12:05:35Z" name="Default suite" finished-at="2021-02-19T12:06:07Z" duration-ms="32451">
     <groups>
     </groups>
-    <test started-at="2021-02-18T11:00:06Z" name="Default test" finished-at="2021-02-18T11:00:43Z" duration-ms="36669">
+    <test started-at="2021-02-19T12:05:35Z" name="Default test" finished-at="2021-02-19T12:06:07Z" duration-ms="32451">
       <class name="com.bluetail.aero.automation.Launching_Bluetail_Aero_Site">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:com.bluetail.aero.automation.Launching_Bluetail_Aero_Site@1224144a]" started-at="2021-02-18T11:00:06Z" name="initialize" finished-at="2021-02-18T11:00:06Z" duration-ms="643" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.bluetail.aero.automation.Launching_Bluetail_Aero_Site@1224144a]" started-at="2021-02-19T12:05:34Z" name="initialize" finished-at="2021-02-19T12:05:35Z" duration-ms="685" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method is-config="true" signature="doSkip()[pri:0, instance:com.bluetail.aero.automation.Launching_Bluetail_Aero_Site@1224144a]" started-at="2021-02-18T11:00:06Z" name="doSkip" finished-at="2021-02-18T11:00:06Z" duration-ms="72" status="PASS">
+        <test-method is-config="true" signature="doSkip()[pri:0, instance:com.bluetail.aero.automation.Launching_Bluetail_Aero_Site@1224144a]" started-at="2021-02-19T12:05:35Z" name="doSkip" finished-at="2021-02-19T12:05:35Z" duration-ms="76" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doSkip -->
-        <test-method signature="SmokeTestCase(java.lang.String, java.lang.String)[pri:0, instance:com.bluetail.aero.automation.Launching_Bluetail_Aero_Site@1224144a]" started-at="2021-02-18T11:00:06Z" name="SmokeTestCase" data-provider="getTestData" finished-at="2021-02-18T11:00:42Z" duration-ms="35592" status="PASS">
+        <test-method signature="SmokeTestCase(java.lang.String, java.lang.String)[pri:0, instance:com.bluetail.aero.automation.Launching_Bluetail_Aero_Site@1224144a]" started-at="2021-02-19T12:05:35Z" name="SmokeTestCase" data-provider="getTestData" finished-at="2021-02-19T12:06:06Z" duration-ms="30918" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -31,13 +40,84 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoAlertPresentException">
+            <message>
+              <![CDATA[no such alert
+  (Session info: chrome=88.0.4324.182)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-GNR27S3', ip: '192.168.43.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}), userDataDir=C:\Users\User\AppData\Local\Temp\scoped_dir12208_502364372}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:65224}, acceptInsecureCerts=false, browserVersion=88.0.4324.182, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: 6f17a1f1783f8db9a044e09c98a71ec1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=88.0.4324.182)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-GNR27S3', ip: '192.168.43.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}), userDataDir=C:\Users\User\AppData\Local\Temp\scoped_dir12208_502364372}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:65224}, acceptInsecureCerts=false, browserVersion=88.0.4324.182, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: 6f17a1f1783f8db9a044e09c98a71ec1
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1020)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTargetLocator.alert(EventFiringWebDriver.java:612)
+at com.bluetail.aero.automation.WebUIAutomation.popUpHandler(WebUIAutomation.java:234)
+at com.bluetail.aero.automation.Launching_Bluetail_Aero_Site.SmokeTestCase(Launching_Bluetail_Aero_Site.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoAlertPresentException -->
           <reporter-output>
             <line>
-              <![CDATA[Opening the Zumic page URL : https://refstagingapp.bluetail.aero/]]>
+              <![CDATA[Opening the Bluetail_Aero page URL : https://refstagingapp.bluetail.aero/]]>
+            </line>
+            <line>
+              <![CDATA[ The Bluetail_Aero page URL is opened : https://refstagingapp.bluetail.aero/]]>
+            </line>
+            <line>
+              <![CDATA[ Logging into the application : https://refstagingapp.bluetail.aero/]]>
+            </line>
+            <line>
+              <![CDATA[ Logging out from application : https://refstagingapp.bluetail.aero/]]>
             </line>
           </reporter-output>
         </test-method> <!-- SmokeTestCase -->
-        <test-method is-config="true" signature="preparingToShutDown()[pri:0, instance:com.bluetail.aero.automation.Launching_Bluetail_Aero_Site@1224144a]" started-at="2021-02-18T11:00:42Z" name="preparingToShutDown" finished-at="2021-02-18T11:00:43Z" duration-ms="979" status="PASS">
+        <test-method is-config="true" signature="preparingToShutDown()[pri:0, instance:com.bluetail.aero.automation.Launching_Bluetail_Aero_Site@1224144a]" started-at="2021-02-19T12:06:06Z" name="preparingToShutDown" finished-at="2021-02-19T12:06:07Z" duration-ms="1388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preparingToShutDown -->

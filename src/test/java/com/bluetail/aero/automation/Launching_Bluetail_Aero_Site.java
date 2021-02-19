@@ -34,16 +34,22 @@ public class Launching_Bluetail_Aero_Site extends TestBase {
 			Thread.sleep(2000);
 
 			// Open Page URL: https://refstagingapp.bluetail.aero/
-			Reporter.log("Opening the Zumic page URL : " + url);
+			Reporter.log("Opening the Bluetail_Aero page URL : " + url);
 			driver.navigate().to(url);
-			System.out.println(" The Bluetail_Aero page URL is opened : " + url);
+			Reporter.log(" The Bluetail_Aero page URL is opened : " + url);
 			Thread.sleep(3000);
+			Reporter.log(" Logging into the application : " + url);
 			BusinessFunctions.doLogin();
 			Thread.sleep(3000);
+			WebUIAutomation.clickObj("ICON_Add_User");
+			
+			
+			Reporter.log(" Logging out from application : " + url);
 			WebUIAutomation.clickObj("BTN_Logout");
 			Thread.sleep(3000);
 			WebUIAutomation.popUpHandler();
 			Thread.sleep(3000);
+			Reporter.log(" Logged out from application : " + url);
 
 		}
 
